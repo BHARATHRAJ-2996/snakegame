@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Collector Snake | Fun Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">SNAKE<span>MASTER</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Back to Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <div class="game-container">
+        <h1>🐍 Stone Collector</h1>
+        <div class="stats">
+            <span>Stones: <span id="score">0</span></span>
+            <span>Energy: <span id="timer">100</span>%</span>
+        </div>
+        
+        <canvas id="snakeGame" width="400" height="400"></canvas>
+        
+        <div class="controls-hint">
+            <p>Use <b>Arrow Keys</b> to Move</p>
+            <p class="warning">Warning: Collect stones before energy hits 0!</p>
+        </div>
+        <button id="restartBtn">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
